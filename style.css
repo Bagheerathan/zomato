@@ -1,0 +1,96 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: #ebf2ff;
+}
+.nave{
+  background-color: white;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.nave img{
+    width: 120px;
+    height: 70px;
+    margin-left: 40px;
+}
+.nave button{
+  margin-right: 50px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  padding: 18px 35px;
+  cursor: pointer;
+
+  background-image: linear-gradient(
+    to left,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+  );
+}
+.nava button:hover {
+
+}
+.sec_svg {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+.second{
+  width: 100%;
+  height: 550px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.sec_para{
+  margin-left: 300px;
+
+}
+.sec_para h1{
+  color: #1d3557;
+  font-size: 300%;
+}
+.sec_svg{
+    margin-right: 200PX
+}
+.sec_svg img{
+  width: 500px;
+  height: 400px;
+  border-radius: 5px;
+  left: auto;
+  position: absolute;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+}
+.sec_para button{
+  margin-right: 50px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  padding: 18px 40px;
+  cursor: pointer;
+  background-image: linear-gradient(
+    to left,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+  );
+}
+span{
+  color: red;
+}
