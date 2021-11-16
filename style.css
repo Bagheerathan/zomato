@@ -220,7 +220,7 @@ body{
 }
 .order_image2{
   display: flex;
-    justify-content: center;
-    align-items: unset;
-    gap: 1%;
+  justify-content: center;
+  align-items: unset;
+  gap: 1%;
 }
