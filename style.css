@@ -59,7 +59,6 @@ body{
 }
 .sec_para{
   margin-left: 250px;
-
 }
 .sec_para h1{
   color: #1d3557;
@@ -128,6 +127,100 @@ body{
   font-weight: 300;
   text-align: center;
 }
-.span{
-  color: red;
+.menu{
+    position: relative;
+    margin: 5rem 0;
+    text-align: center;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.food__list__background{
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    transform: skewY(-5deg);
+    background-image: linear-gradient(
+      to left,
+      #ff512f 0%,
+      #dd2476 51%,
+      #ff512f 100%
+    );
+    z-index: -3;
+}
+.image_menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+    width: 100%;
+}
+.food_card{
+  text-align: left;
+    color: #1d3557;
+    margin-top: 2rem;
+    flex-basis: 30%;
+    background-color: #fff;
+    border-radius: 6px;
+    width: 100%;
+}
+.food_image{
+    width: 100%;
+    border-radius: 6px;
+}
+.image_para{
+    padding: 1rem;
+}
+.menu_last{
+    background: none;
+    margin-top: 4rem;
+    cursor: pointer;
+    margin: 2rem 0;
+    transition: 0.3s;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 6px;
+}
+.menu_last:hover {
+    background: #fff;
+    color: #dd2476;
+    margin: 4rem 20rem;
+    box-shadow: 0 25px 50px -12px
+    rgb(0 0 0 / 25%);
+}
+.order{
+  display: flex;
+  align-items: center;
+  padding: 100px;
+}
+.order_para {
+   width:50%;
+   color: #1d3557;
+   font-weight: 750;
+   font-size: 3rem;
+   line-height: 1;
+}
+.order_restaurant{
+   width: 50%;
+}
+.order_image1{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 1%;
+  padding-bottom: 1%;
+}
+.line1{
+  height: 200px;
+}
+.line2{
+  height: 250px;
+}
+.order_image2{
+  display: flex;
+    justify-content: center;
+    align-items: unset;
+    gap: 1%;
 }
